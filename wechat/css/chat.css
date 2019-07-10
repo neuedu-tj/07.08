@@ -1,0 +1,94 @@
+#chat {
+    flex: 1;
+    background-color: whitesmoke;
+
+    overflow: scroll;
+
+}
+
+#search {
+    width: 96%;
+    height: 36px;
+    background-color: white;
+    margin: 0 auto;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    box-shadow: 0px 0px 10px 1px #EEEEEE;
+    border-radius: 6px;
+
+    background-image: url(../img/icon/chat/search.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 5%;
+}
+
+.chat-item {
+    height: 74px;
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+.chat-img {
+    height: 52px;
+    width: 52px;
+    margin: 0px 10px 0px 6px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.chat-area {
+    height: 100%;
+    flex: 1;
+    margin: 0px 6px 0px 0px;
+    border-bottom: 1px solid #E0E0E0;
+
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+}
+
+.chat-top {
+    height: 34px;
+
+    display: flex;
+    justify-content: space-between;
+
+}
+.chat-bottom {
+    height: 18px;
+}
+
+.nickname {
+    font-family: 微软雅黑;
+    color: #313131;
+    font-size: 18px;
+}
+
+.time {
+    font-family: 微软雅黑;
+    color: #757575;
+    font-size: 12px;
+}
+
+.chat-bottom {
+
+}
+
+.msg-text {
+    font-family: 微软雅黑;
+    color: #757575;
+    font-size: 14px;
+}
+
+.msg-audio {
+    font-family: 微软雅黑;
+    color: crimson;
+    font-size: 14px;
+}
+
