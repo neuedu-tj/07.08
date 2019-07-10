@@ -1,0 +1,43 @@
+#title {
+    height: 50px;
+    background: #313131;
+    display: flex;
+
+    font-family: 微软雅黑;
+    font-size: 18px;
+    color: whitesmoke;
+
+}
+
+#title-left {
+    height: 50px;
+    width: 50px;
+}
+
+#title-center {
+    height: 50px;
+    flex: 1;
+}
+
+#title-right {
+
+    position: relative;
+
+    height: 50px;
+    width: 50px;
+
+    background-image: url(../img/icon/title/add.svg);
+    background-repeat: no-repeat;
+    background-size: 70%;
+    background-position: center;
+}
+
+#title-menu {
+    height: 200px;
+    width: 140px;
+    background-color: #313131;
+
+    position: absolute;
+    top: 56px;
+    right: 4px;
+}

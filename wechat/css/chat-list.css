@@ -1,0 +1,8 @@
+#chat-list {
+    flex: 1;
+    height: 320px;
+    background: lightseagreen;
+
+    overflow: scroll;
+
+}
