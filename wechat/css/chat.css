@@ -65,13 +65,13 @@
 }
 
 .nickname {
-    font-family: 微软雅黑;
+
     color: #313131;
     font-size: 18px;
 }
 
 .time {
-    font-family: 微软雅黑;
+
     color: #757575;
     font-size: 12px;
 }
@@ -81,13 +81,13 @@
 }
 
 .msg-text {
-    font-family: 微软雅黑;
+
     color: #757575;
     font-size: 14px;
 }
 
 .msg-audio {
-    font-family: 微软雅黑;
+
     color: crimson;
     font-size: 14px;
 }

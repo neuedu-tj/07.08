@@ -1,4 +1,126 @@
 #signal {
     height: 32px;
     background: #313131;
+
+    display: flex;
+    justify-content: space-between;
+
+    color: white;
+
+    font-size: 14px;
+
+}
+
+#signal-left {
+    height: 32px;
+    flex: 1;
+    display: flex;
+
+    align-items: center;
+
+}
+
+#signal-left div {
+    margin-left: 4px;
+}
+
+#signal-area {
+    height: 18px;
+    width: 40px;
+
+    display: flex;
+    align-items: flex-end;
+}
+.signal-item {
+    width: 4px;
+
+    border-radius: 1px;
+}
+
+#signal-area div:nth-child(1) {
+    height: 6px;
+}
+#signal-area div:nth-child(2) {
+    height: 10px;
+}
+#signal-area div:nth-child(3) {
+    height: 15px;
+}
+#signal-area div:nth-child(4) {
+    height: 18px;
+}
+
+.signal-ok {
+    background-color: white;
+}
+.signal-lose {
+    background-color: grey;
+}
+
+
+
+
+
+.signal-item {
+
+}
+
+#operation {
+    height: 18px;
+}
+
+#xg {
+    height: 18px;
+}
+
+
+#signal-center{
+    height: 32px;
+    width: 70px;
+
+
+}
+
+#signal-right{
+    height: 32px;
+    flex: 1;
+
+    display: flex;
+    justify-content: flex-end;
+}
+
+/*#signal-right div {*/
+    /*margin-right: 4px;*/
+/*}*/
+
+#battery-area {
+
+
+    margin-right: 4px;
+    height: 32px;
+    width: 40px;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#battery-body {
+    height: 12px;
+    width: 32px;
+    border: 1px solid white;
+    border-radius: 1px;
+}
+#head {
+    height: 6px;
+    width: 3px;
+    background-color: whitesmoke;
+    border-radius: 0px 1px 1px 0px;
+}
+
+#battery-core {
+    height: 10px;
+    width: 6px;
+    background-color: crimson;
+    margin: 1px;
 }
